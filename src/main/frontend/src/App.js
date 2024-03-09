@@ -1,4 +1,5 @@
 import FamilyGnb from "./components/FamilyGnb";
+import Gnb from "./components/Gnb";
 import Header from "./components/Header";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <FamilyGnb />
       <Header />
+      <Gnb />
     </>
   );
 }
