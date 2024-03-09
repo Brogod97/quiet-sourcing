@@ -5,7 +5,7 @@ import { ReactComponent as Notefolio } from "../assets/notefolio.svg";
 
 export default function FamilyGnb() {
   return (
-    <div className="bg-[#F9FAFC]">
+    <div className="hidden bg-[#F9FAFC] md:block md:h-[38px]">
       <ul className="flex">
         <li className="px-4 py-2.5 text-[#a6a6a6] hover:text-[#B7B7B7]">
           <a href="#">
