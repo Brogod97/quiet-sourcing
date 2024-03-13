@@ -11,7 +11,7 @@ module.exports = {
         "font-main": "rgb(16, 28, 51)",
         "font-hover": "rgb(110, 109, 122)",
         "qs-green": "rgb(0, 189, 47)",
-        primary: "#5179F5",
+        primary: "rgb(38, 86, 246)",
       },
     },
   },
