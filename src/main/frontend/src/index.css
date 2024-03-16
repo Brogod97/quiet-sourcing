@@ -31,4 +31,8 @@ code {
   .flexCenter {
     @apply flex items-center justify-center;
   }
+
+  .webGrid {
+    @apply min-w-[1200px] max-w-[1440px] px-20;
+  }
 }

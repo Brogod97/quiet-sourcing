@@ -4,7 +4,7 @@ import { IoSearchOutline } from "react-icons/io5";
 
 export default function Header() {
   return (
-    <header className="my-2 ml-3 mr-[17px] md:m-0 md:mx-auto md:flex md:h-14 md:min-w-[1200px] md:max-w-[1440px] md:items-center md:justify-between md:px-20">
+    <header className="md:webGrid my-2 ml-3 mr-[17px] md:m-0 md:mx-auto md:flex md:h-14 md:items-center md:justify-between ">
       <div className="flex justify-between md:h-full md:items-center md:justify-start">
         <div className="flexCenter">
           <button
