@@ -32,7 +32,7 @@ function PrevArrow({ onClick }) {
 
 // TODO: hover 시 주변 요소에 대한 이벤트 적용 (JavaScript Event Handle)
 
-export default function SlideBanner() {
+export default function BannerSlider() {
   const [banners, setBanners] = useState(initBanner);
 
   const settings = {
@@ -70,6 +70,7 @@ export default function SlideBanner() {
               id="banner-text"
               className={`absolute bottom-6 left-4 flex flex-col items-start ${banner.isColorBlack ? "text-black" : "text-white"} md:static`}
             >
+              {/* FIXME: split으로 분리하는 방식 -> whitespace-line으로 수정 검토 */}
               <span className="mb-2 text-sm opacity-70 md:mb-6 md:text-base">
                 {banner.webSubTitle}
               </span>
