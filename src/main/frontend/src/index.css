@@ -20,6 +20,8 @@ body {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+
+  color: #111111;
 }
 
 code {
@@ -32,7 +34,15 @@ code {
     @apply flex items-center justify-center;
   }
 
+  .flexStart {
+    @apply flex items-center justify-start;
+  }
+
+  .flexBetween {
+    @apply flex items-center justify-between;
+  }
+
   .webGrid {
-    @apply min-w-[1200px] max-w-[1440px] px-20;
+    @apply mx-auto min-w-[1200px] max-w-[1440px] px-20;
   }
 }

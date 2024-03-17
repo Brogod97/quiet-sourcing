@@ -5,8 +5,8 @@ export default function Gnb() {
   const [gnbList, setGnbList] = useState(initGnb);
 
   return (
-    <div className="md:webGrid flex  items-center justify-between px-4 md:mx-auto">
-      <ul className="flex overflow-x-auto  font-medium scrollbar-hide  ">
+    <div className="md:webGrid flex items-center justify-between px-4">
+      <ul className="flex overflow-x-auto font-medium scrollbar-hide">
         {gnbList.map((link, index) => (
           <li
             key={index}
