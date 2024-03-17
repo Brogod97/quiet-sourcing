@@ -48,7 +48,10 @@ export default function BannerSlider() {
     // responsive : [] // md부턴 드래그 막기
   };
   return (
-    <Slider {...settings}>
+    <Slider
+      {...settings}
+      className=" md:webGrid overflow-hidden md:max-w-full md:p-0"
+    >
       {banners.map((banner) => (
         <div
           className={`relative cursor-pointer md:h-[345px] ${banner.backgroundColor}`}
