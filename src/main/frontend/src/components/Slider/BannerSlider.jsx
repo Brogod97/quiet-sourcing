@@ -2,33 +2,8 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { IoChevronForward, IoChevronBackOutline } from "react-icons/io5";
-
-function NextArrow({ onClick }) {
-  return (
-    <button
-      id="next"
-      type="button"
-      className="absolute right-[calc(50%-690px)] top-1/2 z-10 rounded-full bg-white bg-opacity-20 p-2"
-      onClick={onClick}
-    >
-      <IoChevronForward className="text-white" />
-    </button>
-  );
-}
-
-function PrevArrow({ onClick }) {
-  return (
-    <button
-      id="prev"
-      type="button"
-      className="absolute left-[calc(50%-690px)] top-1/2 z-10 rounded-full bg-white bg-opacity-20 p-2"
-      onClick={onClick}
-    >
-      <IoChevronBackOutline className="text-white" />
-    </button>
-  );
-}
+import { IoChevronForward } from "react-icons/io5";
+import { PrevBtn, NextBtn } from "./Arrows";
 
 // TODO: hover 시 주변 요소에 대한 이벤트 적용 (JavaScript Event Handle)
 
@@ -43,8 +18,8 @@ export default function BannerSlider() {
     autoplaySpeed: 4000,
     autoplay: true,
     arrows: true,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    prevArrow: <PrevBtn type="banner" />,
+    nextArrow: <NextBtn type="banner" />,
     // responsive : [] // md부턴 드래그 막기
   };
   return (
