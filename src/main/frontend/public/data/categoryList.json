@@ -1,0 +1,50 @@
+[
+  {
+    "name": "로고/브랜딩",
+    "isBest": true,
+    "image": "https://cdn-dantats.stunning.kr/static/feature/mainHome/category/design/logo.png.small?s=134x134&t=crop&q=80&f=webp",
+    "average": 35
+  },
+  {
+    "name": "패키지/포장",
+    "isBest": true,
+    "image": "https://cdn-dantats.stunning.kr/static/feature/mainHome/category/design/package.png.small?s=134x134&t=crop&q=80&f=webp",
+    "average": 15
+  },
+  {
+    "name": "캐릭터",
+    "isBest": true,
+    "image": "https://cdn-dantats.stunning.kr/static/feature/mainHome/category/design/newCharacter.png.small?s=134x134&t=crop&q=80&f=webp",
+    "average": 20
+  },
+  {
+    "name": "네이밍/슬로건",
+    "isBest": false,
+    "image": "https://cdn-dantats.stunning.kr/static/feature/mainHome/category/design/idea.png.small?s=134x134&t=crop&q=80&f=webp"
+  },
+  {
+    "name": "제품/3D",
+    "isBest": false,
+    "image": "https://cdn-dantats.stunning.kr/static/feature/mainHome/category/design/3D.png.small?s=134x134&t=crop&q=80&f=webp"
+  },
+  {
+    "name": "편집/인쇄",
+    "isBest": false,
+    "image": "https://cdn-dantats.stunning.kr/static/feature/mainHome/category/design/edit.png.small?s=134x134&t=crop&q=80&f=webp"
+  },
+  {
+    "name": "앱/웹/웹배너",
+    "isBest": false,
+    "image": "https://cdn-dantats.stunning.kr/static/feature/mainHome/category/design/appWebBanner.png.small?s=134x134&t=crop&q=80&f=webp"
+  },
+  {
+    "name": "그래픽",
+    "isBest": false,
+    "image": "https://cdn-dantats.stunning.kr/static/feature/mainHome/category/design/grapic.png.small?s=134x134&t=crop&q=80&f=webp"
+  },
+  {
+    "name": "기타",
+    "isBest": false,
+    "image": "https://cdn-dantats.stunning.kr/static/feature/mainHome/category/design/etc.png.small?s=134x134&t=crop&q=80&f=webp"
+  }
+]

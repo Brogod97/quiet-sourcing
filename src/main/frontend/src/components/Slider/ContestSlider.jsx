@@ -13,7 +13,7 @@ export default function ContestSlider() {
 
   useEffect(() => {
     axios
-      .get(`/data/contestDummy.json`)
+      .get("/data/contestDummy.json")
       .then((res) => setContestList(res.data));
   }, []);
 
