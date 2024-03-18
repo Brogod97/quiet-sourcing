@@ -54,7 +54,7 @@ export default function ContestSlider() {
             // TODO: a태그 링크 삽입 (id)
             <a
               href="#"
-              className="w-[calc(50% - 4px)] group mb-8 shrink-0 cursor-pointer pr-2 hover:opacity-80 md:mb-0 md:px-3"
+              className="w-[calc(50% - 4px)] min-h group mb-8 shrink-0 cursor-pointer pr-2 hover:opacity-80 md:mb-0 md:px-3"
             >
               <div className="border-gr relative overflow-hidden rounded border">
                 <img
@@ -65,7 +65,7 @@ export default function ContestSlider() {
                   콘테스트
                 </div>
               </div>
-              <p className="mb-1 mt-2 text-sm font-medium md:text-base">
+              <p className="mb-1 mt-2 truncate text-sm font-medium md:text-base">
                 {contest.contestTitle}
               </p>
               <div className="flexStart md:mt-1">
