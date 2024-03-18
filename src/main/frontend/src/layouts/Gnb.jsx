@@ -10,7 +10,7 @@ export default function Gnb() {
         {gnbList.map((link, index) => (
           <li
             key={index}
-            className="shrink-0 hover:text-primary [&:not(:first-child)]:pl-[18px]"
+            className="hover:text-qs-primary shrink-0 [&:not(:first-child)]:pl-[18px]"
           >
             <a
               href="#"
@@ -36,7 +36,7 @@ export default function Gnb() {
         </span>
         <button
           type="button"
-          className="rounded-full bg-primary px-[22px] py-1.5 hover:opacity-85"
+          className="bg-qs-primary rounded-full px-[22px] py-1.5 hover:opacity-85"
         >
           <span className="text-[15px] font-bold text-white">
             디자인 의뢰하기

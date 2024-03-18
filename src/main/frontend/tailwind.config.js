@@ -6,12 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "qs-black": "101C33",
         "grey-light": "rgb(170, 177, 188)",
-        background: "rgb(245, 246, 247)",
+        "ps-background": "rgb(245, 246, 247)",
         "font-main": "rgb(16, 28, 51)",
         "font-hover": "rgb(110, 109, 122)",
-        "qs-green": "rgb(0, 189, 47)",
-        primary: "rgb(38, 86, 246)",
+        "qs-green": "#00C853",
+        "qs-primary": "rgb(38, 86, 246)",
       },
     },
   },

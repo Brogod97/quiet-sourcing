@@ -27,7 +27,7 @@ export default function Header() {
           <input
             type="text"
             placeholder="어떤 디자인이 필요하세요?"
-            className="hidden w-full rounded-full bg-background py-2 pl-4 pr-8 text-xs focus:outline-1 focus:outline-primary md:block md:h-full md:font-medium"
+            className="bg-qs-background focus:outline-qs-primary hidden w-full rounded-full py-2 pl-4 pr-8 text-xs focus:outline-1 md:block md:h-full md:font-medium"
           />
           <button
             type="button"
