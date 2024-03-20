@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";
+import { IoCheckmark } from "react-icons/io5";
 
 export default function Gnb() {
   const [gnbList, setGnbList] = useState(initGnb);
@@ -10,7 +11,7 @@ export default function Gnb() {
         {gnbList.map((link, index) => (
           <li
             key={index}
-            className="hover:text-qs-primary shrink-0 [&:not(:first-child)]:pl-[18px]"
+            className="shrink-0 hover:text-qs-primary [&:not(:first-child)]:pl-[18px]"
           >
             <a
               href="#"
@@ -36,11 +37,16 @@ export default function Gnb() {
         </span>
         <button
           type="button"
-          className="bg-qs-primary rounded-full px-[22px] py-1.5 hover:opacity-85"
+          className="group relative rounded-full bg-qs-primary px-[22px] py-1.5 group-hover:opacity-85"
         >
           <span className="text-[15px] font-bold text-white">
             디자인 의뢰하기
           </span>
+          <div className="flexCenter invisible absolute left-1/2 top-10 z-10 w-max -translate-x-1/2 translate-y-3 rounded-full border bg-white p-4 px-4 py-2 text-xs font-bold text-gray-500 opacity-0 transition duration-300 group-hover:visible group-hover:-translate-y-0 group-hover:opacity-100">
+            <IoCheckmark className="mr-2" />
+            <span className="text-qs-primary">콘테스트</span>로 디자인 고민을
+            해결하세요
+          </div>
         </button>
       </div>
     </div>
