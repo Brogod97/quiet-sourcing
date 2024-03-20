@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import GhostBtn from "../ui/button/GhostBtn";
+import GhostBtn from "../button/GhostBtn";
 import Divider from "../ui/Divider";
 import { NextBtn, PrevBtn } from "./Arrows";
 

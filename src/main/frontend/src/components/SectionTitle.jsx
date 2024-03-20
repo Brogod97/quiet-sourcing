@@ -1,5 +1,5 @@
 import React from "react";
-import { IoChevronForward } from "react-icons/io5";
+import MoreBtn from "./button/MoreBtn";
 
 export default function SectionTitle({ title, link }) {
   return (
@@ -8,14 +8,7 @@ export default function SectionTitle({ title, link }) {
         {title}
       </h1>
 
-      {link && (
-        <a href={link} className="md:flexCenter group hidden cursor-pointer">
-          <span className="text-xs font-bold hover:text-black group-hover:opacity-40 ">
-            더보기
-          </span>
-          <IoChevronForward className="ml-1 text-gray-400" />
-        </a>
-      )}
+      {link && <MoreBtn link={link} />}
     </div>
   );
 }
